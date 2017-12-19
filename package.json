@@ -1,0 +1,46 @@
+{
+  "name": "authentication-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baonguyendang/Authentication-Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baonguyendang/Authentication-Demo/issues"
+  },
+  "homepage": "https://github.com/baonguyendang/Authentication-Demo#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+    
+    //Express is the framework.
+    //Ejs is the templating engine.
+    //Mongoose is object modeling for our MongoDB database.
+    //Passport stuff will help us authenticating with different methods.
+    //Connect-flash allows for passing session flashdata messages.
+    //Bcrypt-nodejs gives us the ability to hash the password.
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
